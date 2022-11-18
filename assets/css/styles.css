@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flexbox;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    size: 600;
+}
+
+.container {
+    width: auto;
+    display: flex;
+}
+
+.container {
+@media screen (min-width:720px){    
+}}
