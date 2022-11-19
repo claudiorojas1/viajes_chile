@@ -43,10 +43,10 @@
             </button>
         </div>
 
-        <nav class="navbar navbar-expand-lg p-md-3 navbar-dark fixed-top">
+        <!-- <nav class="navbar navbar-expand-lg p-md-3 navbar-dark fixed-top">
             <div class="container col-sm-12 col-md-12">
-                <div class="logo"></div> <img src="/assets/img/viajes.svg" alt="viajes chile" width="40">
-            <a class="navbar-brand" href="#">Viajes Chile</a>
+                <div class="logo"><img src="/assets/img/viajes.svg" alt="viajes chile" width="40">
+            <a class="navbar-brand" href="#">Viajes Chile</a></div>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,24 +57,27 @@
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Quienes Somos</a>
+                    <a class="nav-link" href="#quienes">Quienes Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Destacados</a>
+                    <a class="nav-link" href="#destacados">Destacados</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                 </li>
                 </ul>
             </div>
             </div>
         </nav>
-    </header>
+            <a name="link1" id="quienes"></a>
+    </header> -->
 
-<section>
-    <h2 class="bg-black py-5 m-0">QUIENES SOMOS</h2>
+<section class="bg-black p-0">
+<br>
+<br>
+    <h2 class="#ancla-1 bg-black py-5 pt-5 m-0">QUIENES SOMOS</h2>
 
-    <div class="d-flex justify-content bg-black" style="width: 100%;">
+    <div class="d-flex justify-content bg-black " style="width: 100%;">
 
             <div class="bg-black text-white col-md-4 d-flex d-flex justify-content align-items-top mb-5" style="height:fit-content;">
             <div class="marco ms-5 me-3 bg-black">
@@ -99,32 +102,35 @@
     </div>
 </section>
 
-<section>
+ <section class="bg-black">
+    <a name="link2" id="destacados" style="width: 100%;"></a>
+    <br>
+    <br>
     <h2 class="bg-black py-5 m-0">DESTACADOS</h2>
 
-    <div class="container-flex bg-black" height="100%">  
+    <div class="container bg-black">  
 
-            <div class="card-group ms-2 col-sm-12 col-md-4" style="width: 100%;" height="100em">
+            <div class="card-group col-sm-12 col-md-12" style="width: 100%;" height="100em">
 
-                <div class="card m-2 bg-info" height="100%">
+                <div class="card p-0 m-1 mb-0 bg-info" height="100%">
                     <img class="card-img-top" src="/assets/img/card1.jpg" height="180em" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
                 </div>
-                <div class="card m-2 bg-info" height="100%">
+                <div class="card p-0 m-1 mb-0 bg-info" height="100%">
                     <img class="card-img-top" src="/assets/img/card2.jpg" height="180em" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
                 </div>
-                <div class="card m-2 bg-info" height="100%">
+                <div class="card p-0 m-1 mb-0 bg-info" height="100%">
                 <img class="card-img-top" src="/assets/img/card3.jpg" height="180em" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
                 </div>
-                <div class="card m-2 me-4 bg-info" height="100%">
+                <div class="card p-0 m-1 mb-0 bg-info" height="100%">
                     <img class="card-img-top" src="/assets/img/card4.jpg" height="180em" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -135,7 +141,38 @@
     </div>
 </section>
 
+<section class="bg-black">
+<a name="link3" id="contacto"></a>
+<br>
 <h2 class="bg-black py-5 m-0">CONTACTO</h2>
+
+    <div class="container-fluid mt-0">
+        <form class="row bg-black" style="width: 100%;">
+        <div class="container-fluid col-sm-12 col-md-6" style="width:50%">
+        <div class="col-12">
+          <label for="validationDefault01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationDefault01" value="" required>
+        </div>
+        <div class="col-12">
+            <label for="validationDefault01" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="validationDefault01" value="" required>
+          </div>
+        <div class="col-12">
+          <label for="validationDefault02" class="form-label">Comentario</label>
+          <input type="text" class="form-control" id="validationDefault02" value="Estimado(a)" required>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary mt-3 mb-5" type="submit">Enviar a OCTAVITO</button>
+         </div>
+        </div>
+        </div>
+      </form>
+    </div> 
+</section>
+
+<footer>
+
+</footer>
 
 
 

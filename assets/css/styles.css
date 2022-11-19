@@ -19,9 +19,15 @@ h2 {
 
 .container {
     width: auto;
-    display: flex;
 }
 
 .container {
 @media screen (min-width:720px){    
 }}
+
+.container-fluid {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
