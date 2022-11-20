@@ -33,11 +33,13 @@
                 <img src="/assets/img/carousel3.jpg" class="d-block w-100" alt="foto pinguinos">
             </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" data-bs-toggle="tooltip" data-bs-placement="top"
+            data-bs-custom-class="custom-tooltip" title="Imagen Previa.">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previo</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" data-bs-slide="prev" data-bs-toggle="tooltip" data-bs-placement="top"
+            data-bs-custom-class="custom-tooltip" title="Imagen Siguiente.">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Siguiente</span>
             </button>
@@ -73,35 +75,40 @@
             <a name="link1" id="quienes"></a>
     </header>
 
-<!-- <section class="bg-black p-0">
+
+<section class="bg-black p-0" style="width: 100%;">
 <br>
 <br>
     <h2 class="#ancla-1 bg-black py-5 pt-5 m-0">QUIENES SOMOS</h2>
+    <div class="container-fluid">
+        <div class="row">
 
-    <div class="d-flex justify-content bg-black " style="width: 100%;">
+        <div class="d-flex bg-black" style="width: 100%;">
 
-            <div class="bg-black text-white col-md-4 d-flex d-flex justify-content align-items-top mb-5" style="height:fit-content;">
-            <div class="marco ms-5 me-3 bg-black">
-                <div class="titulo_azul bg-info text-center p-1"><i class="fa-solid fa-plane bg-info"></i></div>
-                <p>Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum. This is a wider card with supporting text below as a natural lead-in to additional content.This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-            </div>
-
-            <div class="bg-black text-white col-md-4 d-flex d-flex justify-content align-items-top mb-5" style="height:fit-content;">
-            <div class="marco mt-0 mx-5 bg-black">
-                <p>This is a wider card with supporting text below as a natural lead-in to additional content. Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
-                <div class="titulo_azul bg-info text-center p-1"><i class="fa-sharp fa-solid fa-mountain bg-info"></i></div>
-            </div>
-            </div>
-
-            <div class="bg-black text-white col-md-4 d-flex d-flex justify-content align-items-top mb-5" style="height:fit-content;">
-            <div class="marco me-5 bg-black">
-                <div class="titulo_azul bg-info text-center p-1"><i class="fa-solid fa-location-pin bg-info"></i></div>
-                <p>Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum. This is a wider card with supporting text below as a natural lead-in to additional content.This is a wider card with supporting text below as a natural lead-in to additional content.This is a wider lead-in to additional content.</p>
-            </div>
-            </div>
-    </div>
-</section> -->
+            <div class="bg-black text-white align-items-top mb-5" style="height:fit-content;">
+                <div class="marco mx-5 me-5 bg-black">
+                    <div class="titulo_azul bg-info text-center p-1"><i class="fa-solid fa-plane bg-info"></i></div>
+                    <p>Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum. This is a wider card with supporting text below as a natural lead-in to additional content.This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                </div>
+                <div class="bg-black text-white align-items-top mb-5" style="height:fit-content;">
+                    <div class="marco mt-0 bg-black">
+                        <p>This is a wider card with supporting text below as a natural lead-in to additional content. Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+                        <div class="titulo_azul bg-info text-center p-1"><i class="fa-sharp fa-solid fa-mountain bg-info"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-black text-white align-items-top mb-5" style="height:fit-content;">
+                    <div class="marco mx-5 bg-black">
+                        <div class="titulo_azul bg-info text-center p-1"><i class="fa-solid fa-location-pin bg-info"></i>
+                        </div>
+                        <p>Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum. This is a wider card with supporting text below as a natural lead-in to additional content.This is a wider card with supporting text below as a natural lead-in to additional content.This is a wider lead-in to additional content.</p>
+                    </div>
+                </div>
+          </div>
+        </div>
+      </div>
+</section>
 
  <section class="bg-black">
     <a name="link2" id="destacados" style="width: 100%;"></a>
@@ -110,80 +117,90 @@
     <h2 class="bg-black py-5 m-0">DESTACADOS</h2>
 
     <div class="container bg-black">  
-
-            <div class="card-group col-sm-12 col-md-12" style="width: 100%;" height="100em">
-
+            <div class="card-group" style="width: 100%;" height="100em">               
                 <div class="card p-0 m-1 mb-0 bg-info" height="100%">
-                    <img class="card-img-top" src="/assets/img/card1.jpg" height="180em" alt="Card image cap">
+                    <img class="card-img-top" src="/assets/img/card1.jpg" height="180em" alt="Montañas">
                     <div class="card-body">
                         <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
                 </div>
                 <div class="card p-0 m-1 mb-0 bg-info" height="100%">
-                    <img class="card-img-top" src="/assets/img/card2.jpg" height="180em" alt="Card image cap">
+                    <img class="card-img-top" src="/assets/img/card2.jpg" height="180em" alt="Lago">
                     <div class="card-body">
                         <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
                 </div>
                 <div class="card p-0 m-1 mb-0 bg-info" height="100%">
-                <img class="card-img-top" src="/assets/img/card3.jpg" height="180em" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <img class="card-img-top" src="/assets/img/card3.jpg" height="180em" alt="Altiplano">
+                    <div class="card-body">
+                        <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
                 </div>
                 <div class="card p-0 m-1 mb-0 bg-info" height="100%">
-                    <img class="card-img-top" src="/assets/img/card4.jpg" height="180em" alt="Card image cap">
+                    <img class="card-img-top" src="/assets/img/card4.jpg" height="180em" alt="Bosque">                   
                     <div class="card-body">
                         <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
                 </div>
 
-            </div>
+            </div>  
     </div>
 </section>
 
 <section class="bg-black">
-<a name="link3" id="contacto"></a>
-<br>
-<h2 class="bg-black py-5 m-0">CONTACTO</h2>
+    <div class="container">
+        <div class="row p-5">
+        <a name="link3" id="contacto"></a>
+        <br>
+        <h2 class="bg-black py-5 my-0">CONTACTO</h2>
 
-    <div class="container-fluid mt-0">
-        <form class="row bg-black" style="width: 100%;">
-        <div class="container-fluid col-sm-12 col-md-6" style="width:50%">
-        <div class="col-12">
-          <label for="validationDefault01" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="validationDefault01" value="" required>
-        </div>
-        <div class="col-12">
-            <label for="validationDefault01" class="form-label">Asunto</label>
-            <input type="text" class="form-control" id="validationDefault01" value="" required>
-          </div>
-        <div class="col-12">
-          <label for="validationDefault02" class="form-label">Comentario</label>
-          <input type="text" class="form-control" id="validationDefault02" value="Estimado(a)" required>
-        </div>
-        <div class="col-12">
-          <button class="btn btn-primary mt-3 mb-5" type="submit">Enviar a OCTAVITO</button>
-         </div>
-        </div>
-        </div>
-      </form>
-    </div> 
+        <form>
+            <div class="caja bg-black">
+                <div>
+                    <span class="text-white">Nombre</span>    
+                    <input id="validarnombre1" class="form-control" type="text">
+                </div>
+                <div>
+                    <span class="text-white">Asunto</span>
+                    <input id="validarnombre2" class="form-control" type="text">
+                </div>
+                <div>
+                    <span class="text-white">Comentario</span>
+                    <input id="validarnombre3" class="form-control" type="text">
+                </div>
+                <div>
+                    <button class="btn btn-info mt-3 mb-5 text-white validarnombre" data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-custom-class="custom-tooltip" title="Presiona para enviar el correo.">Validar</button>
+                </div>    
+            </div>
+        </form>
+    </div>
+    </div>
 </section>
 
-<footer class="">
-    <div class="viajes d-flex justify-content-evenly" style="width: 20%;">
-                <a class="navbar-brand ms-0" href="#">VIAJES CHILE</a>
-                <a class="nav-link active px-1" aria-current="page" href="https://github.com/"><i class="fa-brands fa-github"></i></a>
-                <a class="nav-link active px-1" aria-current="page" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
-                <a class="nav-link active px-1" aria-current="page" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-                <a class="nav-link active px-1" aria-current="page" href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a> 
-    </div>        
+<footer>
+    <div class="container text-center">
+        <div class="row">
+          <div class="col ms-4">
+            VIAJES CHILE
+          </div>
+            <div class="col ms-4">
+            <div class="d-flex center">
+            <h6>síguenos en</h6>   
+            <a class="nav-link active px-1 ms-1" aria-current="page" href="https://github.com/"><i class="fa-brands fa-github fs-5"></i></a>
+            <a class="nav-link active px-1" aria-current="page" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin fs-5"></i></a>
+            <a class="nav-link active px-1" aria-current="page" href="https://twitter.com/"><i class="fa-brands fa-twitter fs-5"></i></a>
+            <a class="nav-link active px-1" aria-current="page" href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook fs-5"></i></a>
+            </div>
+        </div>
+        </div>
+      </div>
+
+</footer>
 
 
-
-  <!-- JavaScript Bundle with Popper -->
-  <!-- Jquery -->
+<!-- JavaScript Bundle with Popper -->
+<!-- Jquery -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
@@ -201,44 +218,44 @@
   <script src="/assets/js/index.js"></script>
 
 
-  <script>
-    var nav = document.querySelector('nav');
+        <script>
+            var nav = document.querySelector('nav');
 
-    window.addEventListener('scroll', function(){
-        if(window.pageYOffset > 100){
-            nav.classList.add('bg-dark', 'shadow');
-        }else{
-            nav.classList.remove('bg-dark', 'shadow');
-        }
-    })
-  </script>
+            window.addEventListener('scroll', function(){
+                if(window.pageYOffset > 100){
+                    nav.classList.add('bg-dark', 'shadow');
+                }else{
+                    nav.classList.remove('bg-dark', 'shadow');
+                }
+            })
+        </script>
 
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+        <script>
+        $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
 
-      // Store hash
-      var hash = this.hash;
+            // Store hash
+            var hash = this.hash;
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
 
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+            } // End if
+        });
+        });
+        </script>
 
 </body>
 </html>
