@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -22,17 +22,17 @@ h2 {
 }
 
 .container {
-@media screen (min-width:720px){    
-}}
+    @media screen (min-width:720px) {}
+}
 
 .container-fluid {
     background-color: black;
     color: white;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  footer {
+footer {
     margin: 0;
     padding: 30px;
     background-color: rgb(47, 117, 167);
